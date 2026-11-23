@@ -1,0 +1,69 @@
+---
+import { SITE } from "../config/site";
+
+const field =
+  "min-h-12.5 border border-field bg-transparent px-3.5 text-base normal-case tracking-normal text-ink outline-hidden focus:border-gold";
+const label = "flex flex-col gap-2 text-[13px] uppercase tracking-[0.08em] text-ink2";
+---
+
+<section id="contacto" class="section-pad bg-bgb text-ink">
+  <div class="mx-auto flex max-w-285 flex-col gap-12">
+    <div class="flex flex-col gap-3.5">
+      <div class="eyebrow text-gold">Ubicación y contacto</div>
+      <h2 class="m-0 text-balance font-display text-[clamp(36px,5vw,54px)] font-medium leading-[1.08]">Reserve su mesa</h2>
+    </div>
+
+    <div class="grid grid-cols-[repeat(auto-fit,minmax(min(100%,360px),1fr))] gap-8">
+      <div class="border border-line bg-card p-[clamp(24px,4vw,40px)]">
+        <form id="reservation-form" data-type="rest" class="flex flex-col gap-5">
+          <div class="grid grid-cols-2 border border-gold">
+            <button type="button" data-pick="rest" data-active="true" class="min-h-12 cursor-pointer border-0 bg-transparent text-sm uppercase tracking-widest text-ink data-[active=true]:bg-wine data-[active=true]:text-cream dark:data-[active=true]:bg-gold-brand dark:data-[active=true]:text-espresso">Restaurante</button>
+            <button type="button" data-pick="hotel" data-active="false" class="min-h-12 cursor-pointer border-0 bg-transparent text-sm uppercase tracking-widest text-ink data-[active=true]:bg-wine data-[active=true]:text-cream dark:data-[active=true]:bg-gold-brand dark:data-[active=true]:text-espresso">Hotel</button>
+          </div>
+          <label class={label}>Nombre
+            <input required placeholder="Su nombre" class={field} />
+          </label>
+          <div class="grid grid-cols-[repeat(auto-fit,minmax(140px,1fr))] gap-3.5">
+            <label class={label}><span data-date-label>Fecha</span>
+              <input type="date" required class={field} />
+            </label>
+            <label class={label}><span data-count-label>Personas</span>
+              <input type="number" min="1" value="2" class={field} />
+            </label>
+          </div>
+          <button type="submit" data-submit class="btn-wine min-h-13.5 cursor-pointer">Reservar mesa</button>
+        </form>
+
+        <div id="reservation-done" class="hidden min-h-80 flex-col justify-center gap-3.5 [&:not(.hidden)]:flex">
+          <div class="font-script text-[44px] text-gold">Grazie mille</div>
+          <p class="m-0 text-[17px] leading-relaxed text-ink2">Recibimos su solicitud. Le confirmaremos por WhatsApp en breve.</p>
+          <button id="reservation-reset" class="mt-2 min-h-11 cursor-pointer self-start border border-field bg-transparent px-5 text-ink2">Nueva reservación</button>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-6">
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(160px,1fr))] gap-6">
+          <div class="flex flex-col gap-1.5">
+            <span class="text-xs uppercase tracking-[0.2em] text-gold">Teléfono / WhatsApp</span>
+            <a href="#contacto" class="font-serif text-2xl text-ink">{SITE.phone}</a>
+          </div>
+          <div class="flex flex-col gap-1.5">
+            <span class="text-xs uppercase tracking-[0.2em] text-gold">Horario</span>
+            <span class="font-serif text-[22px] leading-tight">Lun – Dom<br />8:00 – 22:00</span>
+          </div>
+          <div class="flex flex-col gap-1.5">
+            <span class="text-xs uppercase tracking-[0.2em] text-gold">Pago</span>
+            <span class="font-serif text-[22px] leading-tight">Tarjeta y efectivo</span>
+          </div>
+        </div>
+        <div class="min-h-75 flex-1 overflow-hidden border border-line">
+          <iframe
+            title="Mapa Café Roma"
+            src={`https://www.google.com/maps?q=${SITE.mapQuery}&output=embed`}
+            class="size-full min-h-75 border-0 contrast-[.95] sepia-[.35]"
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

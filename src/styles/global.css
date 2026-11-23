@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Lato", sans-serif;
+  --font-script: "Great Vibes", cursive;
+
+  --color-wine: #7b1c2e;
+  --color-wine-hover: #932338;
+  --color-cream: #faf7f2;
+  --color-sand: #f5e6c8;
+  --color-espresso: #1e0f08;
+  --color-gold-brand: #d4922a;
+  --color-amber-brand: #b8651a;
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* Theme-aware tokens: reference runtime CSS variables, so they must be inline */
+@theme inline {
+  --color-bga: var(--bgA);
+  --color-bgb: var(--bgB);
+  --color-ink: var(--ink);
+  --color-ink2: var(--ink2);
+  --color-gold: var(--gold);
+  --color-wine-t: var(--wine);
+  --color-amber-t: var(--amber);
+  --color-line: var(--line);
+  --color-card: var(--card);
+  --color-field: var(--field);
+  --color-hdr: var(--hdr);
+  --color-hdr-ink: var(--hdrInk);
+  --color-hov: var(--hov);
+  --color-foot: var(--foot);
+  --color-mute: var(--mute);
+}
+
+:root,
+:root[data-theme="light"] {
+  --bgA: #f5e6c8;
+  --bgB: #faf7f2;
+  --ink: #2c1a0e;
+  --ink2: #4a3324;
+  --gold: #8e4a12;
+  --wine: #7b1c2e;
+  --amber: #9a5414;
+  --line: rgba(123, 28, 46, 0.2);
+  --card: #f5e6c8;
+  --field: rgba(44, 26, 14, 0.3);
+  --hdr: rgba(250, 247, 242, 0.94);
+  --hdrInk: #2c1a0e;
+  --hov: #7b1c2e;
+  --foot: #eadbc0;
+  --mute: #6b5442;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bgA: #24120a;
+  --bgB: #1e0f08;
+  --ink: #faf7f2;
+  --ink2: #e2d3bb;
+  --gold: #d4922a;
+  --wine: #e0a04a;
+  --amber: #d4922a;
+  --line: rgba(212, 146, 42, 0.3);
+  --card: #2a160c;
+  --field: rgba(245, 230, 200, 0.35);
+  --hdr: rgba(30, 15, 8, 0.94);
+  --hdrInk: #f5e6c8;
+  --hov: #f5e6c8;
+  --foot: #140904;
+  --mute: #bfae92;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bgb font-sans text-ink antialiased;
+  margin: 0;
+}
+
+::selection {
+  background: #7b1c2e;
+  color: #faf7f2;
+}
+
+@utility eyebrow {
+  @apply text-xs font-bold uppercase tracking-[0.3em];
+}
+@utility btn {
+  @apply flex min-h-13 items-center justify-center border px-8 text-sm font-bold uppercase tracking-[0.14em] transition-colors;
+}
+@utility btn-wine {
+  @apply btn border-gold-brand bg-wine text-cream hover:bg-wine-hover;
+}
+@utility section-pad {
+  @apply px-5 py-[clamp(72px,10vw,128px)];
+}
+@utility gold-rule {
+  @apply h-1 bg-linear-to-r from-amber-brand via-gold-brand to-amber-brand;
+}

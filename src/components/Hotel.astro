@@ -1,0 +1,26 @@
+---
+import { AMENITIES } from "../config/site";
+---
+
+<section id="hotel" class="section-pad bg-wine text-cream">
+  <div class="mx-auto grid max-w-285 grid-cols-[repeat(auto-fit,minmax(min(100%,400px),1fr))] items-center gap-[clamp(40px,6vw,80px)]">
+    <div class="flex flex-col gap-5.5">
+      <div class="eyebrow text-sand">Hotel boutique</div>
+      <h2 class="m-0 text-balance font-display text-[clamp(44px,6.5vw,72px)] font-medium italic leading-none">Tu casa en Perote</h2>
+      <p class="m-0 text-pretty font-serif text-[22px] leading-normal text-sand">Sube después de la cena. Cuatro habitaciones dentro de la misma casona, pensadas para descansar o trabajar con calma.</p>
+      <div class="flex items-center gap-4.5 border-y border-sand/30 py-4.5">
+        <span class="font-display text-[72px] leading-[0.9] text-gold-brand">4</span>
+        <span class="text-[15px] leading-normal text-cream">habitaciones disponibles<br /><span class="text-sand">Solo con reservación previa</span></span>
+      </div>
+      <a href="#contacto" data-pick-cta="hotel" class="btn self-start border-transparent bg-cream text-wine hover:bg-gold-brand hover:text-espresso">Reservar habitación</a>
+    </div>
+    <div class="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] border-l border-t border-sand/25">
+      {AMENITIES.map((a) => (
+        <div class="flex flex-col gap-3 border-b border-r border-sand/25 px-4.5 py-5.5">
+          <svg class="size-6.5" viewBox="0 0 24 24" fill="none" stroke="#D4922A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d={a.d} /></svg>
+          <span class="text-[15px] text-cream">{a.label}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

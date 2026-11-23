@@ -1,0 +1,28 @@
+---
+import { SITE } from "../config/site";
+---
+
+<section id="inicio" class="relative flex min-h-[88vh] items-center justify-center overflow-hidden bg-espresso">
+  <img
+    src="/images/roma.webp"
+    alt="Muro de barricas en Café Roma"
+    class="absolute inset-0 size-full scale-[1.12] object-cover object-[55%_45%] contrast-105 saturate-110"
+  />
+  <div class="absolute inset-0 bg-wine/50"></div>
+  <div class="absolute inset-0 bg-linear-to-b from-espresso/15 from-40% to-espresso/75"></div>
+
+  <div class="relative flex max-w-205 flex-col items-center gap-5.5 px-6 py-18 text-center text-cream">
+    <div class="text-xs uppercase tracking-[0.32em] text-sand">Restaurante · Hotel boutique</div>
+    <h1 class="m-0 font-display text-[clamp(64px,14vw,136px)] font-medium italic leading-[0.95] tracking-tight">{SITE.name}</h1>
+    <p class="m-0 text-balance font-script text-[clamp(30px,6vw,46px)] leading-[1.15] text-sand">{SITE.tagline}</p>
+    <div class="mt-2.5 flex w-full flex-wrap justify-center gap-3">
+      <a href="#contacto" data-pick-cta="rest" class="btn-wine max-w-65 flex-[1_1_220px] text-cream hover:text-cream">Hacer reservación</a>
+      <a href="#restaurante" class="btn max-w-65 flex-[1_1_220px] border-cream bg-transparent text-cream hover:bg-cream/10 hover:text-cream">Ver menú</a>
+    </div>
+    <div class="flex items-center gap-2 text-[13px] tracking-wide text-sand">
+      <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="#D4922A" stroke-width="1.5"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+      Centro Histórico de Perote, Veracruz
+    </div>
+  </div>
+</section>
+<div class="gold-rule"></div>
