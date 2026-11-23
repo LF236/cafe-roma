@@ -1,35 +1,169 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-23T00:00:00Z",
+  "generatedAt": "2026-11-23T22:30:25.948063Z",
   "title": "Design System: Café Roma",
   "extensions": {
     "colorMeta": {
-      "wine": { "role": "primary", "displayName": "Vino de Casona", "canonical": "#7b1c2e", "tonalRamp": ["#2a0a10","#44121c","#5c1726","#7b1c2e","#9c4455","#bb7381","#d8a7b0","#f0dade"] },
-      "gold-brand": { "role": "secondary", "displayName": "Oro de Barrica", "canonical": "#d4922a", "tonalRamp": ["#3a2308","#5e3a0d","#8e5612","#b8741c","#d4922a","#e2ae5b","#efcb92","#f8e6c9"] },
-      "amber-brand": { "role": "secondary", "displayName": "Ámbar Tostado", "canonical": "#b8651a", "tonalRamp": ["#321a07","#512b0d","#7a4112","#b8651a","#cf8442","#e1a572","#efc9a4","#f8e6d4"] },
-      "cream": { "role": "neutral", "displayName": "Crema Mantel", "canonical": "#faf7f2", "tonalRamp": ["#2a2722","#4a463f","#6e6a62","#948f86","#bbb6ad","#d8d3ca","#ece8e0","#faf7f2"] },
-      "sand": { "role": "neutral", "displayName": "Arena Cálida", "canonical": "#f5e6c8", "tonalRamp": ["#2e2615","#4f4226","#7a6a3f","#a69260","#c8b588","#dccba4","#ecdebb","#f5e6c8"] },
-      "espresso": { "role": "neutral", "displayName": "Espresso de Cava", "canonical": "#1e0f08", "tonalRamp": ["#0d0603","#1e0f08","#35201a","#4e342b","#6b4e44","#8e746a","#b39f97","#d9cfca"] },
-      "ink": { "role": "neutral", "displayName": "Tinta de Café", "canonical": "#2c1a0e", "tonalRamp": ["#140a04","#2c1a0e","#4a3324","#6b5442","#8e7966","#b3a392","#d6cbbe","#efe9e1"] }
+      "wine": {
+        "role": "primary",
+        "displayName": "Vino de Casona",
+        "canonical": "#7b1c2e",
+        "tonalRamp": [
+          "#2a0a10",
+          "#44121c",
+          "#5c1726",
+          "#7b1c2e",
+          "#9c4455",
+          "#bb7381",
+          "#d8a7b0",
+          "#f0dade"
+        ]
+      },
+      "gold-brand": {
+        "role": "secondary",
+        "displayName": "Oro de Barrica",
+        "canonical": "#d4922a",
+        "tonalRamp": [
+          "#3a2308",
+          "#5e3a0d",
+          "#8e5612",
+          "#b8741c",
+          "#d4922a",
+          "#e2ae5b",
+          "#efcb92",
+          "#f8e6c9"
+        ]
+      },
+      "amber-brand": {
+        "role": "secondary",
+        "displayName": "Ámbar Tostado",
+        "canonical": "#b8651a",
+        "tonalRamp": [
+          "#321a07",
+          "#512b0d",
+          "#7a4112",
+          "#b8651a",
+          "#cf8442",
+          "#e1a572",
+          "#efc9a4",
+          "#f8e6d4"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Crema Mantel",
+        "canonical": "#faf7f2",
+        "tonalRamp": [
+          "#2a2722",
+          "#4a463f",
+          "#6e6a62",
+          "#948f86",
+          "#bbb6ad",
+          "#d8d3ca",
+          "#ece8e0",
+          "#faf7f2"
+        ]
+      },
+      "sand": {
+        "role": "neutral",
+        "displayName": "Arena Cálida",
+        "canonical": "#f5e6c8",
+        "tonalRamp": [
+          "#2e2615",
+          "#4f4226",
+          "#7a6a3f",
+          "#a69260",
+          "#c8b588",
+          "#dccba4",
+          "#ecdebb",
+          "#f5e6c8"
+        ]
+      },
+      "espresso": {
+        "role": "neutral",
+        "displayName": "Espresso de Cava",
+        "canonical": "#1e0f08",
+        "tonalRamp": [
+          "#0d0603",
+          "#1e0f08",
+          "#35201a",
+          "#4e342b",
+          "#6b4e44",
+          "#8e746a",
+          "#b39f97",
+          "#d9cfca"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta de Café",
+        "canonical": "#2c1a0e",
+        "tonalRamp": [
+          "#140a04",
+          "#2c1a0e",
+          "#4a3324",
+          "#6b5442",
+          "#8e7966",
+          "#b3a392",
+          "#d6cbbe",
+          "#efe9e1"
+        ]
+      }
     },
     "typographyMeta": {
-      "display": { "displayName": "Display", "purpose": "Nombre Café Roma en el hero, itálica." },
-      "headline": { "displayName": "Headline", "purpose": "Títulos de sección." },
-      "title": { "displayName": "Title", "purpose": "Títulos de columnas del restaurante." },
-      "lead": { "displayName": "Lead", "purpose": "Frases de apertura en Cormorant." },
-      "script": { "displayName": "Script", "purpose": "Tagline y confirmación solamente." },
-      "body": { "displayName": "Body", "purpose": "Párrafos funcionales en Lato." },
-      "label": { "displayName": "Label", "purpose": "Eyebrows en mayúsculas espaciadas." }
+      "display": {
+        "displayName": "Display",
+        "purpose": "Nombre Café Roma en el hero, itálica."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de sección."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Títulos de columnas del restaurante."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Frases de apertura en Newsreader."
+      },
+      "script": {
+        "displayName": "Script",
+        "purpose": "Tagline y confirmación solamente."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Párrafos funcionales en Hanken Grotesk."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Eyebrows en mayúsculas espaciadas."
+      }
     },
     "shadows": [
-      { "name": "framed-photo", "value": "0 20px 40px rgba(30,15,8,.25)", "purpose": "Solo la foto de Nosotros, con marco ámbar desplazado." }
+      {
+        "name": "framed-photo",
+        "value": "0 20px 40px rgba(30,15,8,.25)",
+        "purpose": "Solo la foto de Nosotros, con marco ámbar desplazado."
+      }
     ],
     "motion": [
-      { "name": "color-fade", "value": "color, background-color, border-color 150ms cubic-bezier(0.4,0,0.2,1)", "purpose": "Hover de botones y enlaces (transition-colors de Tailwind)." },
-      { "name": "smooth-scroll", "value": "scroll-behavior: smooth", "purpose": "Anclas de navegación." }
+      {
+        "name": "color-fade",
+        "value": "color, background-color, border-color 150ms cubic-bezier(0.4,0,0.2,1)",
+        "purpose": "Hover de botones y enlaces (transition-colors de Tailwind)."
+      },
+      {
+        "name": "smooth-scroll",
+        "value": "scroll-behavior: smooth",
+        "purpose": "Anclas de navegación."
+      }
     ],
     "breakpoints": [
-      { "name": "nav-desktop", "value": "1080px" }
+      {
+        "name": "nav-desktop",
+        "value": "1080px"
+      }
     ]
   },
   "components": [
@@ -39,7 +173,7 @@
       "refersTo": "button-primary",
       "description": "Acción de reserva: bloque vino con borde dorado.",
       "html": "<button class=\"ds-btn-primary\">Hacer reservación</button>",
-      "css": ".ds-btn-primary{display:flex;align-items:center;justify-content:center;min-height:52px;padding:0 32px;border:1px solid #d4922a;background:#7b1c2e;color:#faf7f2;font:700 14px Lato,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:background-color .15s}.ds-btn-primary:hover{background:#932338}.ds-btn-primary:focus-visible{outline:2px solid #d4922a;outline-offset:2px}"
+      "css": ".ds-btn-primary{display:flex;align-items:center;justify-content:center;min-height:52px;padding:0 32px;border:1px solid #d4922a;background:#7b1c2e;color:#faf7f2;font:600 13px Hanken Grotesk,sans-serif;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;transition:background-color .15s}.ds-btn-primary:hover{background:#932338}.ds-btn-primary:focus-visible{outline:2px solid #d4922a;outline-offset:2px}"
     },
     {
       "name": "Outline Button",
@@ -47,35 +181,35 @@
       "refersTo": "button-outline",
       "description": "Acción secundaria: contorno dorado, rellena al hover.",
       "html": "<button class=\"ds-btn-outline\">Ver menú completo</button>",
-      "css": ".ds-btn-outline{display:flex;align-items:center;justify-content:center;min-height:52px;padding:0 32px;border:1px solid #8e4a12;background:transparent;color:#8e4a12;font:700 14px Lato,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:background-color .15s,color .15s}.ds-btn-outline:hover{background:#8e4a12;color:#faf7f2}.ds-btn-outline:focus-visible{outline:2px solid #8e4a12;outline-offset:2px}"
+      "css": ".ds-btn-outline{display:flex;align-items:center;justify-content:center;min-height:52px;padding:0 32px;border:1px solid #8e4a12;background:transparent;color:#8e4a12;font:600 13px Hanken Grotesk,sans-serif;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;transition:background-color .15s,color .15s}.ds-btn-outline:hover{background:#8e4a12;color:#faf7f2}.ds-btn-outline:focus-visible{outline:2px solid #8e4a12;outline-offset:2px}"
     },
     {
       "name": "Field",
       "kind": "input",
       "description": "Campo con etiqueta y borde hairline.",
       "html": "<label class=\"ds-field\">Nombre<input placeholder=\"Su nombre\"></label>",
-      "css": ".ds-field{display:flex;flex-direction:column;gap:6px;font:700 12px Lato,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#4a3324}.ds-field input{min-height:48px;padding:0 14px;border:1px solid rgba(44,26,14,.3);background:transparent;color:#2c1a0e;font:400 16px Lato,sans-serif}.ds-field input:focus-visible{outline:2px solid #8e4a12;outline-offset:1px}"
+      "css": ".ds-field{display:flex;flex-direction:column;gap:6px;font:700 12px Hanken Grotesk,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#4a3324}.ds-field input{min-height:48px;padding:0 14px;border:1px solid rgba(44,26,14,.3);background:transparent;color:#2c1a0e;font:400 16px Hanken Grotesk,sans-serif}.ds-field input:focus-visible{outline:2px solid #8e4a12;outline-offset:1px}"
     },
     {
       "name": "Type Toggle",
       "kind": "chip",
       "description": "Selector Restaurante/Hotel en caja con borde dorado.",
       "html": "<div class=\"ds-toggle\"><button data-active=\"true\">Restaurante</button><button data-active=\"false\">Hotel</button></div>",
-      "css": ".ds-toggle{display:grid;grid-template-columns:1fr 1fr;border:1px solid #8e4a12}.ds-toggle button{min-height:48px;border:0;background:transparent;color:#2c1a0e;font:400 14px Lato,sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}.ds-toggle button[data-active=true]{background:#7b1c2e;color:#faf7f2}"
+      "css": ".ds-toggle{display:grid;grid-template-columns:1fr 1fr;border:1px solid #8e4a12}.ds-toggle button{min-height:48px;border:0;background:transparent;color:#2c1a0e;font:400 14px Hanken Grotesk,sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}.ds-toggle button[data-active=true]{background:#7b1c2e;color:#faf7f2}"
     },
     {
       "name": "Logo Block",
       "kind": "nav",
       "description": "Marca del encabezado: bloque vino.",
       "html": "<a class=\"ds-logo\"><span>Café Roma</span><small>Perote · Veracruz</small></a>",
-      "css": ".ds-logo{display:inline-flex;flex-direction:column;background:#7b1c2e;color:#faf7f2;padding:6px 14px 8px;line-height:1;text-decoration:none}.ds-logo span{font:italic 500 22px 'Playfair Display',serif}.ds-logo small{margin-top:3px;font:400 8px Lato,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#f5e6c8;white-space:nowrap}"
+      "css": ".ds-logo{display:inline-flex;flex-direction:column;background:#7b1c2e;color:#faf7f2;padding:6px 14px 8px;line-height:1;text-decoration:none}.ds-logo span{font:italic 500 22px 'Bodoni Moda',serif}.ds-logo small{margin-top:3px;font:400 8px Hanken Grotesk,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#f5e6c8;white-space:nowrap}"
     },
     {
       "name": "Feature Column",
       "kind": "card",
-      "description": "Columna del restaurante con hairline, sin tarjeta.",
+      "description": "Columna de restaurante: título en oro de texto y párrafo, sin icono.",
       "html": "<div class=\"ds-col\"><h3>Cocina mexicana</h3><p>Cortes de carne, pescado y platillos locales de la región.</p></div>",
-      "css": ".ds-col{display:flex;flex-direction:column;gap:16px;padding:40px 28px;border-bottom:1px solid rgba(123,28,46,.2)}.ds-col h3{margin:0;font:500 28px 'Playfair Display',serif;color:#2c1a0e}.ds-col p{margin:0;font:400 16px/1.7 Lato,sans-serif;color:#4a3324}"
+      "css": ".ds-col{display:flex;flex-direction:column;gap:16px;padding:40px 28px;border-bottom:1px solid rgba(123,28,46,.2)}.ds-col h3{margin:0;font:500 28px 'Bodoni Moda',serif;color:#2c1a0e}.ds-col p{margin:0;font:400 16px/1.7 Hanken Grotesk,sans-serif;color:#4a3324}"
     }
   ],
   "narrative": {
@@ -83,17 +217,42 @@
     "overview": "Una casa vieja que acoge: muros de barrica, manteles blancos, una habitación arriba. Cálido y sereno, vino, crema, arena y ámbar, con serifas itálicas y un script puntual. Profundidad tonal y líneas finas; esquinas rectas. Tema claro y oscuro como día y noche de la misma casa.",
     "keyCharacteristics": [
       "Vino como voz principal; ámbar/dorado como acento de borde y regla.",
-      "Playfair itálica para el nombre; Cormorant para aperturas; Lato funcional.",
+      "Bodoni itálica para el nombre; Newsreader para aperturas; Hanken Grotesk funcional.",
       "Esquinas 0px, bordes hairline, profundidad tonal.",
       "Tema claro/oscuro con paridad completa.",
       "Imagen cálida teñida de vino bajo el hero."
     ],
     "rules": [
-      { "name": "The Day-Night Pair Rule", "body": "Cada color de texto o acento tiene su par claro/oscuro en variables CSS. Nunca fijar un hex de texto en un componente.", "section": "colors" },
-      { "name": "The Gold Is a Line Rule", "body": "El oro/ámbar aparece como borde, regla o icono, no como relleno amplio.", "section": "colors" },
-      { "name": "The Italic Is the Sign Rule", "body": "La itálica de Playfair se reserva para el nombre y el título de Hotel.", "section": "typography" },
-      { "name": "The One Script Rule", "body": "Great Vibes solo en el tagline y la confirmación.", "section": "typography" },
-      { "name": "The Flat-By-Default Rule", "body": "Sin sombras en tarjetas, botones ni campos. La profundidad es tonal y lineal.", "section": "elevation" }
+      {
+        "name": "The Day-Night Pair Rule",
+        "body": "Cada color de texto o acento tiene su par claro/oscuro en variables CSS. Nunca fijar un hex de texto en un componente.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Is a Line Rule",
+        "body": "El oro/ámbar aparece como borde, regla o icono, no como relleno amplio.",
+        "section": "colors"
+      },
+      {
+        "name": "The Italic Is the Sign Rule",
+        "body": "La itálica de Bodoni se reserva para el nombre y el título de Hotel.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Script Rule",
+        "body": "Pinyon Script solo en el tagline y la confirmación.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Sin sombras en tarjetas, botones ni campos. La profundidad es tonal y lineal.",
+        "section": "elevation"
+      },
+      {
+        "name": "The No Eyebrow Rule",
+        "body": "Ningún rótulo pequeño sobre un título; el titular lleva su propio peso.",
+        "section": "typography"
+      }
     ],
     "dos": [
       "Do usar variables de tema para todo color de texto y fondo.",
@@ -105,9 +264,10 @@
     "donts": [
       "Don't redondear botones, campos ni tarjetas.",
       "Don't añadir sombras a componentes; la profundidad es tonal.",
-      "Don't usar Great Vibes fuera del tagline y la confirmación.",
+      "Don't usar Pinyon Script fuera del tagline y la confirmación.",
       "Don't usar oro como relleno extenso; es línea y acento.",
-      "Don't fijar hex de texto; rompe el tema oscuro."
+      "Don't fijar hex de texto; rompe el tema oscuro.",
+      "Don't poner eyebrows sobre los títulos ni iconos genéricos sobre columnas de texto."
     ]
   }
 }

@@ -1,6 +1,6 @@
 ---
 name: Café Roma
-description: Casona centenaria en Perote: vino, crema y ámbar, serifas itálicas y líneas finas.
+description: Casona centenaria en Perote: vino, crema y ámbar, serifas de alto contraste y líneas finas.
 colors:
   wine: "#7b1c2e"
   wine-hover: "#932338"
@@ -22,40 +22,42 @@ colors:
   dark-footer: "#140904"
 typography:
   display:
-    fontFamily: "Playfair Display, serif"
-    fontSize: "clamp(64px, 14vw, 136px)"
+    fontFamily: "Bodoni Moda, Didot, serif"
+    fontSize: "clamp(60px, 13vw, 128px)"
     fontWeight: 500
     lineHeight: 0.95
-    letterSpacing: "-0.025em"
+    letterSpacing: "-0.03em"
   headline:
-    fontFamily: "Playfair Display, serif"
-    fontSize: "clamp(36px, 5vw, 56px)"
+    fontFamily: "Bodoni Moda, Didot, serif"
+    fontSize: "clamp(34px, 5vw, 54px)"
     fontWeight: 500
-    lineHeight: 1.08
+    lineHeight: 1.1
+    letterSpacing: "-0.015em"
   title:
-    fontFamily: "Playfair Display, serif"
-    fontSize: "28px"
+    fontFamily: "Bodoni Moda, Didot, serif"
+    fontSize: "clamp(24px, 3vw, 28px)"
     fontWeight: 500
-    lineHeight: 1.2
+    lineHeight: 1.15
+    letterSpacing: "-0.01em"
   lead:
-    fontFamily: "Cormorant Garamond, serif"
-    fontSize: "22px"
+    fontFamily: "Newsreader, Iowan Old Style, Georgia, serif"
+    fontSize: "clamp(19px, 2.2vw, 22px)"
     fontWeight: 400
     lineHeight: 1.5
   script:
-    fontFamily: "Great Vibes, cursive"
-    fontSize: "clamp(30px, 6vw, 46px)"
-    lineHeight: 1.15
+    fontFamily: "Pinyon Script, Snell Roundhand, cursive"
+    fontSize: "clamp(30px, 5.5vw, 46px)"
+    lineHeight: 1.2
   body:
-    fontFamily: "Lato, sans-serif"
+    fontFamily: "Hanken Grotesk, Helvetica Neue, Arial, sans-serif"
     fontSize: "16px"
     fontWeight: 400
-    lineHeight: 1.75
+    lineHeight: 1.7
   label:
-    fontFamily: "Lato, sans-serif"
+    fontFamily: "Hanken Grotesk, Helvetica Neue, Arial, sans-serif"
     fontSize: "12px"
-    fontWeight: 700
-    letterSpacing: "0.3em"
+    fontWeight: 600
+    letterSpacing: "0.14em"
 rounded:
   none: "0px"
 spacing:
@@ -85,7 +87,7 @@ components:
 
 **Creative North Star: "La Posada Centenaria"**
 
-Una casa vieja que acoge: muros de barrica, manteles blancos, una habitación arriba. El sistema es cálido y sereno, hecho de vino profundo, crema, arena y ámbar, con serifas itálicas que sugieren letrero de trattoria y un script puntual para la voz del anfitrión. Se lee como una posada, no como un restaurante de cadena: tranquilo, sin prisa, de papel y madera.
+Una casa vieja que acoge: muros de barrica, manteles blancos, una habitación arriba. El sistema es cálido y sereno, hecho de vino profundo, crema, arena y ámbar, con una didona que sugiere letrero de trattoria y un script de caligrafía grabada puntual para la voz del anfitrión. Se lee como una posada, no como un restaurante de cadena: tranquilo, sin prisa, de papel y madera.
 
 La densidad es holgada. Secciones de 72–128px de aire vertical, una columna de texto angosta, una imagen enmarcada. La profundidad viene del color de fondo y de líneas finas, no de sombras. Todo es ortogonal: esquinas rectas, bordes de 1px, una regla dorada de 4px que separa secciones.
 
@@ -93,7 +95,7 @@ El tema claro y el oscuro son dos iluminaciones de la misma casa: día (crema y 
 
 **Key Characteristics:**
 - Vino como voz principal; ámbar/dorado como acento de borde y regla.
-- Playfair itálica para el nombre y los grandes titulares; Cormorant para frases de apertura; Lato para todo lo funcional.
+- Bodoni Moda (itálica para el nombre) en titulares; Newsreader para frases de apertura; Hanken Grotesk para todo lo funcional.
 - Esquinas 0px, bordes hairline, profundidad tonal.
 - Tema claro/oscuro con paridad completa.
 - Imagen cálida y teñida de vino bajo el hero.
@@ -106,7 +108,7 @@ Paleta de bodega y mantel: vino y espresso sobre crema y arena, con ámbar dorad
 - **Vino de Casona** (#7b1c2e): botones primarios, bloque del logotipo, fondo de la sección Hotel, selección de texto. Hover: **Vino Vivo** (#932338).
 
 ### Secondary
-- **Oro de Barrica** (#d4922a): borde del botón primario, regla de 4px, iconos del hero, acento principal en oscuro.
+- **Oro de Barrica** (#d4922a): borde del botón primario, regla de 4px, iconos del hero y de amenidades, acento principal en oscuro.
 - **Ámbar Tostado** (#b8651a): extremos de la regla dorada y marco desplazado de la foto.
 
 ### Neutral
@@ -114,7 +116,7 @@ Paleta de bodega y mantel: vino y espresso sobre crema y arena, con ámbar dorad
 - **Arena Cálida** (#f5e6c8): fondo alterno claro (bgA), tarjetas, texto secundario sobre vino/espresso.
 - **Espresso de Cava** (#1e0f08): fondo base oscuro, superficie bajo la foto del hero.
 - **Tinta de Café** (#2c1a0e) / **Tinta Suave** (#4a3324): texto principal y secundario en claro.
-- **Oro Oscuro de Texto** (#8e4a12): eyebrows y títulos dorados en claro (contraste AA sobre crema).
+- **Oro Oscuro de Texto** (#8e4a12): títulos de columna, etiquetas y enlaces dorados en claro (contraste AA sobre crema).
 - **Ámbar de Texto** (#9a5414), **Humo Tostado** (#6b5442): apoyos de texto.
 - **Fondo Nocturno** (#24120a), **Tarjeta Nocturna** (#2a160c), **Tinta Nocturna Suave** (#e2d3bb), **Humo Nocturno** (#bfae92), **Pie Nocturno** (#140904): equivalentes del tema oscuro. En oscuro, el "vino de texto" pasa a ámbar claro (#e0a04a).
 
@@ -125,30 +127,34 @@ Paleta de bodega y mantel: vino y espresso sobre crema y arena, con ámbar dorad
 
 ## Typography
 
-**Display Font:** Playfair Display (serif)
-**Serif Font:** Cormorant Garamond (serif)
-**Body Font:** Lato (sans-serif)
-**Script Font:** Great Vibes (cursive)
+**Display Font:** Bodoni Moda (con Didot, serif)
+**Serif Font:** Newsreader (con Iowan Old Style, Georgia)
+**Body Font:** Hanken Grotesk (con Helvetica Neue, Arial)
+**Script Font:** Pinyon Script (con Snell Roundhand)
 
-**Character:** Playfair da la fachada de letrero europeo, Cormorant susurra frases de bienvenida, Lato mantiene la funcionalidad clara y Great Vibes aparece solo como firma.
+Todas autoalojadas en `public/fonts/` (WOFF2 variable, subsets latin y latin-ext), con `font-display: swap`; Bodoni y Hanken se precargan.
+
+**Character:** Bodoni da la fachada de letrero europeo, de trazos finos y contraste marcado; Newsreader susurra frases de bienvenida con calidez de libro; Hanken Grotesk mantiene lo funcional claro y algo humanista; Pinyon Script aparece solo como firma.
 
 ### Hierarchy
-- **Display** (500 itálica, clamp(64px,14vw,136px), 0.95): nombre "Café Roma" en el hero.
-- **Headline** (500, clamp(36px,5vw,56px), 1.08): títulos de sección; Hotel sube a clamp(44px,6.5vw,72px) en itálica.
-- **Title** (500, 28px): títulos de las tres columnas del restaurante.
-- **Lead** (Cormorant 400, 22px, 1.45–1.5): frases de apertura bajo cada título, en itálica cuando se desea voz.
-- **Script** (clamp(30px,6vw,46px)): tagline del hero y el "Grazie mille" del mensaje de éxito.
-- **Body** (Lato 400, 16px, 1.7–1.75): párrafos de apoyo, sin superar ~70ch.
-- **Label** (Lato 700, 12px, 0.3em, mayúsculas): eyebrows de sección. Botones: 14px, 0.14em.
+- **Display** (500 itálica, clamp(60px,13vw,128px), 0.95, -0.03em): nombre "Café Roma" en el hero.
+- **Headline** (500, clamp(34px,5vw,54px), 1.1, -0.015em): títulos de sección (`h-section`); Hotel sube a clamp(44px,6.5vw,72px) en itálica.
+- **Title** (500, clamp(24px,3vw,28px), 1.15): títulos de las tres columnas del restaurante, en oro de texto.
+- **Lead** (Newsreader 400, clamp(19px,2.2vw,22px), 1.5): frases de apertura (`lead`), en itálica cuando se desea voz.
+- **Script** (clamp(30px,5.5vw,46px), 1.2): tagline del hero y el "Grazie mille" del mensaje de éxito.
+- **Body** (Hanken Grotesk 400, 16px, 1.7): párrafos de apoyo, máx. 62ch.
+- **Label** (Hanken Grotesk 600, 12px, 0.14em, mayúsculas): navegación, etiquetas de campo y datos de contacto (`label-caps`). Botones: 13px, 0.16em.
 
 ### Named Rules
-**The Italic Is the Sign Rule.** La itálica de Playfair se reserva para el nombre y el título de Hotel; los demás titulares van en romana.
+**The Italic Is the Sign Rule.** La itálica de Bodoni se reserva para el nombre y el título de Hotel; los demás titulares van en romana.
 
-**The One Script Rule.** Great Vibes solo en dos lugares: el tagline y la confirmación. No para etiquetas ni navegación.
+**The One Script Rule.** Pinyon Script solo en dos lugares: el tagline y la confirmación. No para etiquetas ni navegación.
+
+**The No Eyebrow Rule.** Ningún rótulo pequeño sobre un título; el titular lleva su propio peso.
 
 ## Layout
 
-Contenedor centrado de 1140px (max-w-285) para secciones, 1200px (max-w-300) para el encabezado. Secciones con padding lateral de 20px y vertical clamp(72px,10vw,128px). Rejillas `auto-fit` con `minmax(min(100%,420px),1fr)` para pares texto–imagen; la brecha crece de 40px a 88px con el viewport. Rejillas de tres columnas (restaurante) y de amenidades usan hairlines internas en lugar de tarjetas. El menú de escritorio aparece a 1080px; debajo, hamburguesa. Alternancia de fondo por sección: arena (Nosotros), crema (Restaurante, Contacto), vino (Hotel). Una regla dorada de 4px marca los cortes.
+Contenedor centrado de 1140px (max-w-285) para secciones, 1200px (max-w-300) para el encabezado. Secciones con padding lateral de 20px y vertical clamp(72px,10vw,128px). Rejillas `auto-fit` con `minmax(min(100%,420px),1fr)` para pares texto–imagen; la brecha crece de 40px a 88px con el viewport. Restaurante (tres columnas de texto, sin iconos), la lista de espacios de Instalaciones y la rejilla de amenidades usan hairlines internas en lugar de tarjetas. `scroll-padding-top` de 4.5rem compensa el encabezado fijo. El menú de escritorio aparece a 1080px; debajo, hamburguesa. Alternancia de fondo por sección: arena (Nosotros, Instalaciones), crema (Restaurante, Contacto), vino (Hotel). Una regla dorada de 4px marca los cortes.
 
 ## Elevation & Depth
 
@@ -169,7 +175,7 @@ Esquinas rectas en todo (0px): botones, campos, tarjetas, imágenes. Bordes de 1
 
 ### Buttons
 - **Shape:** rectángulo recto, alto mínimo 52px, padding horizontal 32px.
-- **Primary** (`btn-wine`): fondo Vino de Casona, texto crema, borde Oro de Barrica, Lato 700 mayúsculas 14px con 0.14em de tracking. Hover a Vino Vivo.
+- **Primary** (`btn-wine`): fondo Vino de Casona, texto crema, borde Oro de Barrica, Hanken Grotesk 600 mayúsculas 13px con 0.16em de tracking. Hover a Vino Vivo.
 - **Outline:** transparente, borde y texto en oro (Ver menú completo) o crema sobre el hero; hover rellena con color de la paleta.
 - **Inverso** (Hotel): fondo crema, texto vino; hover oro con espresso.
 - Transición de color, sin movimiento de transformación.
@@ -186,10 +192,13 @@ Esquinas rectas en todo (0px): botones, campos, tarjetas, imágenes. Bordes de 1
 - **Confirmación:** reemplaza el formulario con "Grazie mille" en script.
 
 ### Navigation
-- Encabezado fijo con 94% de opacidad, borde inferior hairline. Logotipo en bloque vino con nombre en Playfair itálica y ubicación en 8px mayúsculas. Enlaces Lato 13px mayúsculas con 0.12em; CTA "Reservar mesa" como botón vino con borde dorado. Móvil: lista en Cormorant 24px con separadores hairline. Conmutador de tema junto al menú.
+- Encabezado fijo con 94% de opacidad, borde inferior hairline. Logotipo en bloque vino con nombre en Bodoni itálica y ubicación en 9px mayúsculas. Enlaces Hanken 12px semibold mayúsculas con 0.14em; CTA "Reservar mesa" como botón vino con borde dorado. Móvil: lista en Newsreader 24px (`aria-expanded`, cierra con Esc); CTA fijo inferior plano, sin sombra con separadores hairline. Conmutador de tema junto al menú.
+
+### Espacios (Instalaciones)
+Foto con pie en itálica sobre espresso 85% y lista de tres espacios (Newsreader, icono de línea ámbar, hairline inferior). Sin tiles de relleno.
 
 ### Amenidades (componente firma)
-Rejilla de celdas con hairlines sand/25 en la sección Hotel: icono de línea (stroke 1.5) y etiqueta de 15px en crema.
+Rejilla de celdas con hairlines sand/25 en la sección Hotel: icono de línea (stroke 1.5) y etiqueta de 15px en crema; iconos en `currentColor` oro.
 
 ## Do's and Don'ts
 
@@ -203,6 +212,7 @@ Rejilla de celdas con hairlines sand/25 en la sección Hotel: icono de línea (s
 ### Don't:
 - **Don't** redondear botones, campos ni tarjetas.
 - **Don't** añadir sombras a componentes; la profundidad es tonal.
-- **Don't** usar Great Vibes fuera del tagline y la confirmación.
+- **Don't** usar Pinyon Script fuera del tagline y la confirmación.
 - **Don't** usar oro como relleno extenso; es línea y acento.
-- **Don't** fijar hex de texto; rompe el tema oscuro.
+- **Don't** fijar hex de texto ni de trazo SVG; rompe el tema oscuro.
+- **Don't** poner eyebrows sobre los títulos ni iconos genéricos sobre columnas de texto.

@@ -1,0 +1,38 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "lato",
+        "createdAt": "2026-11-23T22:16:31.652Z",
+        "reason": "DESIGN.md specifies Lato as body/label font; existing brand choice, not introduced this session"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "bodoni moda",
+        "createdAt": "2026-11-23T22:27:23.017Z",
+        "reason": "user asked to replace generic fonts; DESIGN.md update pending via /impeccable document"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "newsreader",
+        "createdAt": "2026-11-23T22:27:23.035Z",
+        "reason": "user asked to replace generic fonts; DESIGN.md update pending via /impeccable document"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "pinyon script",
+        "createdAt": "2026-11-23T22:27:23.051Z",
+        "reason": "user asked to replace generic fonts; DESIGN.md update pending via /impeccable document"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "hanken grotesk",
+        "createdAt": "2026-11-23T22:27:23.068Z",
+        "reason": "user asked to replace generic fonts; DESIGN.md update pending via /impeccable document"
+      }
+    ]
+  }
+}
